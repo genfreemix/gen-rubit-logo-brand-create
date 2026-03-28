@@ -1,4 +1,5 @@
 import HeroSection from '@/components/sections/HeroSection';
+import StructureExpressionSection from '@/components/sections/StructureExpressionSection';
 import SubBrandsSection from '@/components/sections/SubBrandsSection';
 import MasterSymbolSection from '@/components/sections/MasterSymbolSection';
 
@@ -16,6 +17,8 @@ export default function Home() {
       <HeroSection />
 
       {/* ↓ МЕСТО ДЛЯ: Philosophy / Манифест */}
+
+      <StructureExpressionSection />
 
       <SubBrandsSection />
 
